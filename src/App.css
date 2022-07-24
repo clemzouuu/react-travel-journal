@@ -1,0 +1,64 @@
+body {
+  margin: 1% 30% 0 30%;
+  font-family: sans-serif;
+}
+
+#planet {
+  height: 40px;
+}
+
+#journal {
+  background-color: #fffaf3;
+}
+
+#header  {
+  display: flex;
+  background-color: #ff5148;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer {
+  background-color: #ff5148;
+  border-radius: 0px 0px 10px 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#card {
+  margin: 5% 0 10% 0;
+  display: grid;
+  grid: repeat(1fr 1fr);
+  column-gap: 10%;
+  width: 500px;
+  padding-left: 5%;
+}
+
+#left {
+  grid-column: 1;
+}
+
+#right{
+  grid-column: 2;
+  width: 400px;
+}
+
+#picture {
+  height: 300px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+#arrow {
+  height: 20px;
+  margin-right: 10px;
+}
