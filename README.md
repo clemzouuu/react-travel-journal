@@ -1,5 +1,5 @@
 # react-travel-journal
-travel journal made with react
+static travel journal made with react
 
 learning how to use props, the map method and how to use reusable components
 
